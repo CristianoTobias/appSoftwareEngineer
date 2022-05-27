@@ -1,22 +1,36 @@
-header {
-    position: relative;
-    margin-top: 120px;
+body {
+	background: #f5f6f7;
+	color: #1b1b32;
+	font-family: Helvetica;
+	margin: 0;
 }
-
-nav  {
-    position: fixed;
-    top: 0;
+header {
     width: 100%;
-    padding: 20px 0;
-    background-color: #fff;
-    font-size: 14px;
-    display: inline;
-    
+    height: 50px;
+	background-color: #1b1b32;
+	display: flex;
+}
+h1 {
+	color: #f1be32;
+	font-size: min(5vw, 1.2em);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 4px solid #dfdfe2;
+
+}
+nav {
+	width: 50%;
+	max-width: 300px;
+	height: 50px;
+}
+nav > ul {
+	display: flex;
+	justify-content: space-evenly;
 }
 nav li {
-    display: inline;
-    margin: 20px;
-    font-size: 1.5rem;
+    
    
     
 }
@@ -33,6 +47,11 @@ footer{
     font-size: 14px;
    }
 
-   img#cristiano {
-       width: 100px;
+img#cristiano {
+       width: max(20px, 3vw);
+       /* aspect-ratio: 35/4; */
+	   /* padding: 0.4rem; */
+       /* background-color:#0a0a23; */
+       
+       
    }
