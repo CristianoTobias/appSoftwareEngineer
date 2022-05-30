@@ -112,3 +112,7 @@ body{
     letter-spacing: 1px;
     cursor: pointer;
   }
+  main{
+    position: relative;
+    top: 500px;
+  }
