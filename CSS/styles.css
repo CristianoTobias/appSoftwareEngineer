@@ -1,3 +1,4 @@
+
 body {
     background: #f5f6f7;
       color: #1b1b32;
@@ -17,6 +18,7 @@ body {
 
 
 }
+
 #logo {
     width: max(100px, 18vw);
       background-color: #0a0a23;
@@ -26,13 +28,13 @@ body {
   
   h1 {
     color: #f1be32;
-      font-size: min(5vw, 1.2em);
+      font-size: min(5vw, 1.0em);
       text-align: center;
 
   }
   
   nav {
-    width: 50%;
+    width: 70%;
       max-width: 300px;
       height: 50px;
   }
