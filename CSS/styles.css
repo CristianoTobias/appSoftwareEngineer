@@ -92,11 +92,24 @@ body {
 	max-width: 900px;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 200px) {
   body {
     background: #021528;
       color: #e9f0ed;
       font-family: Helvetica;
       margin: 0;
+  }
+  header {
+    width: 70%;
+    height: 5em;
+    background-color: #050572;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    
+  
+  
   }
   }
