@@ -7,7 +7,7 @@ body {
   }
   header {
 	width: 70%;
-	height: 80px;
+	height: 5rem;
 	background-color: #1b1b32;
 	display: flex;
 	justify-content: space-between;
@@ -20,7 +20,7 @@ body {
 }
 
 #logo {
-    width: max(100px, 18vw);
+    width: max(10em, 18vw);
       background-color: #0a0a23;
     aspect-ratio: 35 / 4;
       padding: 0.4rem;
@@ -35,24 +35,25 @@ body {
   
   nav {
     width: 70%;
-      max-width: 300px;
-      height: 50px;
+      max-width: 30rem;
+      height: 2rem;
   }
   
   nav > ul {
     display: flex;
-	justify-content: space-evenly;
+	 justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
     padding-inline-start: 0;
     margin-block: 0;
     height: 100%;
+    ;
   }
   
   nav > ul > li {
     color: #dfdfe2;
-    margin: 0 0.2rem;
-      padding: 0.2rem;
+    margin: 0 0.1rem;
+      padding: 0.1rem;
       display: block;
       
   }
@@ -74,11 +75,11 @@ body {
   }
   
   h2 {
-    border-bottom: 4px solid #dfdfe2;
+    border-bottom: 0.2rem solid #dfdfe2;
   }
   
   main {
-    padding-top: 100px;
+    padding-top:10rem;
     width: 80%;
     margin: 0 auto;
   }
@@ -87,29 +88,16 @@ body {
 	width: 100%;
 	margin-top: 0 ;
 	margin-right: auto;
-	margin-bottom: 10px;
+	margin-bottom: 0.2rem;
 	margin-left: auto;
-	max-width: 900px;
+	max-width: 100rem;
+}
+@media (max-width: 20rem){
+body {
+  background-color: #0a0a23;
 }
 
-@media only screen and (max-width: 200px) {
-  body {
-    background: #021528;
-      color: #e9f0ed;
-      font-family: Helvetica;
-      margin: 0;
-  }
-  header {
-    width: 70%;
-    height: 5em;
-    background-color: #050572;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    
-  
-  
-  }
-  }
+}
+
+
+
